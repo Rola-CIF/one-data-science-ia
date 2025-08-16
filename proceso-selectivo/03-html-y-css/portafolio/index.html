@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="es-cl">
+<html lang="es-mx">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Rolando Cifuentes</title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
-    <header><img src="one_logo.png"></header>
-    <main>
-        <h1><strong>Oracle Next Education y Alura Latam</strong></h1>
-        <p>¡Hola! Soy Rolando Cifuentes, cursando HTML y CSS para la certificación en Data Science + AI</p>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://github.com/">GitHub</a>
-        <img src="rola.jpg" alt="Imagen de Ana García trabajando">
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                Eleve tu negocio digital a otro nivel <strong class="titulo-destaque">con un Front-end de calidad!</strong></h1>
+                <p class="presentacion__contenido__texto">¡Hola! Soy Ana García, desarrolladora Front-end con especialización en React, HTML y CSS. Ayudo a pequeños
+                    negocios y diseñadores a llevar a cabo buenas ideas. ¿Hablamos?
+                </p>
+                <div class="presentacion__enlaces">
+                    <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes:</h2>
+                    <a class="presentacion__enlaces__link" href="https://github.com/orgs/Rola-CIF/repositories">
+                        <img src="assets/github.png">GitHub</a>
+                    <a class="presentacion__enlaces__link" href="https://www.linkedin.com/in/rcifuentesc">
+                        <img src="assets/linkedin.png"> Linkedin</a>
+                    <a class="presentacion__enlaces__link" href="https://www.twitch.tv/">
+                        <img src="assets/twitch.png">Twitch</a>
+                </div>
+        </section>
+        <img src="assets/Imagem.png" alt="Foto de Ana García desarrolando un proyecto">
     </main>
-    <footer>autor: rolandocifuentescid@gmail.com</footer>
+    <footer class="footer">
+        <p>Desarrollado por rolandocifuentescid@gmail.com</p>
+    </footer>
 </body>
 </html>
