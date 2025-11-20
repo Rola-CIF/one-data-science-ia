@@ -1,0 +1,27 @@
+# Jupyter Notebooks
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+.virtual_documents/
+artifacts
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos de Video
+*.mp4
+
+# Archivos Git
+.git
